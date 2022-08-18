@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM ubuntu:latest
+FROM ubuntu:18.04
 
 RUN apt install swig libjpeg-dev zlib1g-dev python3-dev python3-numpy wget git && pip install numpy pybind11
 
